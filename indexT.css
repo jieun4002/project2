@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+@media (min-width:768px){
+header .logo a{width: 100px;}
+header nav .toggle{ margin-left: 30px;}
+.container .top-wrap .bg1{ right: -31%; height: 393px;}
+.container .top-wrap .bg2{ left: -41%; height: 417px;}
+.container .top-wrap .deco{  margin-left: 92px; margin-top: 55%; }
+.container .top-wrap .deco .deco1{  width: 20%; height: 104px; }
+.container .top-wrap .deco .deco2{  width: 25%; height: 133px; }
+.container .top-wrap .deco .deco3{  width: 13%; height: 73px; }
+.container .top-wrap { height: 54vh;}
+.container .top-wrap .title p { font-size: 2.3rem;  width: 130px;}
+.container .top-wrap .title h1 { font-size: 5.5rem; height: 67px; line-height: 67px; }
+.container .top-wrap .title h2 { 
+  font-size: 4.6rem; width: 224px;
+  height:50px; line-height: 50px;
+  margin-right: 10px;
+
+}
+.container .top-wrap .title h2:last-child{
+  width: 281px;
+}
+
+/* brand 영역 폰트 사이즈 들여쓰기 조정*/
+
+.container .brand-wrap > p{ font-size: 18px; margin-left: 20px;}
+.container .brand-wrap h2{ font-size: 3.5rem;}
+.container .brand-wrap .brand_story{ padding-top: 100px;}
+.container .brand-wrap .brand_story .txtbox{ font-size: 21px;}
+
+.container .brand-wrap .brand_story .txtbox p:nth-child(2){margin-left: 59px; }
+
+/* yogert 이미지 */
+.container .brand-wrap .yogert .yogert_img{ height: 195px;}
+.container .brand-wrap .yogert p{ font-size: 21px;}
+
+
+/* product 딸기요거트 */
+.container .product1-wrap > p{ font-size: 18px; margin-left: 20px;}
+
+.container .product1-wrap .pro-name1 h3 {font-size: 2.5rem; width: 120px; }
+.container .product1-wrap .pro-name1 h3:first-child{width: 110px;}
+.container .product1-wrap .pro-name1 h2{ font-size: 4.3rem; height: 45px; line-height: 45px;}
+
+/* 딸기요거트 이미지 수정 */
+.container .product1-wrap .strawberry .product_img1 a{height: 365px;}
+.container .product1-wrap .txtbox1 { font-size: 21px;}
+
+.container .product1-wrap .txtbox1 p:last-child{font-size: 16px;}
+
+/* product 블루베리요거트 */
+.container .product2-wrap .pro-name2 h3 {font-size: 2.5rem; width: 120px; }
+.container .product2-wrap .pro-name2 h3:first-child{width: 110px;}
+.container .product2-wrap .pro-name2 h2{font-size: 4.3rem; height: 45px; line-height: 45px;}
+
+/*  블루베리요거트 이미지 수정 */
+.container .product2-wrap .blueberry .product_img2 a{ height: 365px;}
+.container .product2-wrap .txtbox2{ font-size: 21px;}
+
+.container .product2-wrap .txtbox2 p:last-child{ font-size: 15px;}
+
+/* 레시피 */
+.container .recipe-wrap p {font-size: 18px; margin-left: 20px;}
+
+.container .recipe-wrap .recipe-name h3{ font-size: 3rem; margin-left: 266px; margin-right: 56px;}
+.container .recipe-wrap .recipe-name h2{ font-size: 3.8rem; height: 45px; line-height: 44px;}
+.container .recipe-wrap .swiper-container .swiper-wrapper{ margin-bottom: 120px;}
+.container .recipe-wrap .swiper-container .swiper-wrapper .swiper-slide{font-size: 18px;}
+
+/* delivery */
+.container .delivery-wrap p{ font-size: 18px; margin-left: 20px;}
+.container .delivery-wrap .delivery-name h3{font-size: 2rem; width: 244px; margin-left: 25%;}
+.container .delivery-wrap .delivery-name h2{font-size: 4rem; height: 55px; line-height: 55px;}
+.container .delivery-wrap .delivery-deco{ margin: 50px auto; margin-left: 54%;}
+.container .delivery-wrap .delivery-deco .deco1{ width: 80px; height: 124px; margin-right: 34%;}
+.container .delivery-wrap .delivery-deco .deco2{ width: 80px; height: 124px;}
+.container .delivery-wrap .delivery-service{font-size: 25px; width: 259px; line-height: 1.1;}
+.container .delivery-wrap .delivery-service .delivery-arrow{ width: 110px; height: 50px;}
+}

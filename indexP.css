@@ -1,0 +1,229 @@
+@charset "utf-8";
+
+@media (min-width:1440px){
+  header .logo a {width: 180px; height: 65px;}
+  header nav .toggle{ margin-left: 45px; }
+  
+  .container .top-wrap { margin-bottom: 80px; height: 83vh;}
+  .container .top-wrap .bg1{ height: 542px; right: -38%;}
+  .container .top-wrap .bg2{ height: 564px; left: -44%;}
+  .container .top-wrap .deco{ 
+    margin-top: 26%;
+    margin-left: 21%;
+  }
+  .container .top-wrap .deco .deco1{ width: 217px; height: 153px; }
+  .container .top-wrap .deco .deco2{ width: 245px; height: 185px;}
+  .container .top-wrap .deco .deco3{ width: 136px;height: 92px;}
+
+  .container .top-wrap .title p{
+    font-size: 6vw; 
+    width: 20%; 
+    height: 65px; 
+    line-height: 65px;
+  }
+  .container .top-wrap .title h1{ 
+    font-size: 11vw;
+    height: 10%;
+    line-height: 0.8;
+  }
+  .container .top-wrap .title h2{ 
+    font-size: 8vw;
+    background: url(images/deco2.png) no-repeat 10% 9% / contain;
+    width: 29%;
+    margin: 0; padding: 0;
+    margin-right: 27px; margin-top: px;
+    height: 90px;
+    line-height: 90px;
+  }
+  .container .top-wrap .title h2:last-child{
+    width: 32%; margin-top: 8px;
+  }
+
+
+
+  .container .brand-wrap{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10%;
+  }
+  .container .brand-wrap .vertical{
+    background: url(images/vertical.svg) no-repeat 50% /contain;
+    width: 5%;
+    height: 61vh;
+    margin-top: 14%;
+  }
+  .container .brand-wrap > p{ 
+    font-size: 22px; 
+    transform-origin: 0% 0%;
+   
+  }
+  .container .brand-wrap h2{ 
+    font-size: 4vw;
+  }
+.container .brand-wrap .brand_story .txtbox p{ margin: 0 auto; }
+
+  .container .brand-wrap .yogert{ margin-top: 161px;}
+  .container .brand-wrap .yogert .yogert_img{ margin-top: 163px;  margin-left: 32%;}
+  .container .brand-wrap .yogert p{
+    margin-left: 10%;
+    width: 73%;
+}
+
+/* 딸기 요거트 */
+.container .product1-wrap { position: relative; overflow: hidden;}
+.container .product1-wrap .pro-name1{ width: 54%;}
+.container .product1-wrap .pro-name1 h3{ font-size: 4vw; width: 15%;}
+.container .product1-wrap .pro-name1 h3:first-child{ 
+  width: 21%;
+  margin-left: 15%;
+}
+.container .product1-wrap .pro-name1 h2{ font-size: 6vw; height: 4.5vw; line-height: 0.8; }
+.container .product1-wrap .flex{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  width: 90%;
+  margin: 0 auto;
+}  
+.container .product1-wrap .strawberry { width: 85%;}
+.container .product1-wrap .strawberry .product_img1{position: relative; }
+.container .product1-wrap .strawberry .product_img1 a{height: 444px;}
+.container .product1-wrap .strawberry .event_img1{
+  display:block;
+  opacity: 0;
+
+}
+.container .product1-wrap .flex .txtbox1{
+  width: 78%;
+  margin: 0 auto;
+ }
+
+ .container .product1-wrap .berry1 {
+  display: block;
+  position: absolute;
+  top: -168px;
+  right: -62px;
+  width: 31%;
+}
+.container .product1-wrap .berry1 img{ transform: rotate(122deg); width: 100%;}
+
+
+/*  블루베리 요거트 */
+.container .product2-wrap{ position: relative; overflow: hidden;}
+.container .product2-wrap .pro-name2{ width: 54%; margin-left: auto;}
+.container .product2-wrap .pro-name2 h3{ font-size: 4vw; width: 30%; }
+.container .product2-wrap .pro-name2 h3:first-child{ width: 21%; }
+.container .product2-wrap .pro-name2 h2{ font-size: 6vw; height: 4.5vw; line-height: 0.8; margin-right: 153px;}
+.container .product2-wrap .pro-name2 h2:last-child{margin-left: 188px; margin-right: 0; }
+ .container .product2-wrap .flex{
+  display: flex;
+  align-items: flex-end;
+  width: 90%;
+  margin: 0 auto;
+ }
+ .container .product2-wrap .blueberry{ width: 85%;}
+ .container .product2-wrap .blueberry .product_img2 a{ 
+   height: 444px;
+   margin-top: 120px;
+  }
+  .container .product2-wrap .blueberry .event_img2{ display: block; }
+.container .product2-wrap .txtbox2{ width: 78%; margin: 0 auto;}
+.container .product2-wrap .berry2{ 
+  display: block;
+ position: absolute;
+ top: -42px;
+ left: -27px;
+ width: 31%;
+ }
+ .container .product2-wrap .berry2 img{ width: 70%;}
+
+/* recipe 영역 */
+
+.container .recipe-wrap{ display: flex;}
+.container .recipe-wrap p {
+  margin-top: 93px;
+  transform-origin: 0 0 ;
+}
+.container .recipe-wrap .recipe-name { width: 200%; height: 110px;}
+.container .recipe-wrap .recipe-name h2{
+  height: 5vw;
+  line-height: 0.9;
+  font-size: 6vw;
+}
+.container .recipe-wrap .recipe-name h3{
+  font-size: 4vw;
+  height: 3vw;
+  line-height: 0.7;
+  margin-left: 22%;
+}
+.container .recipe-wrap .recipe-name .arrow-img {
+  background: url(images/arrow.png) no-repeat 50% / contain;
+  text-indent: -9999px;
+  width: 70px;
+  height: 49px;
+  margin-left: 21%;
+}
+
+
+.container .recipe-wrap .swiper-container{ margin-top: 75px;}
+
+/* delvery */
+
+.container .delivery-wrap { 
+  position: relative;
+  margin-bottom: 150px;
+  padding-top: 113px;
+}
+.container .delivery-wrap .delivery-name { width: 47%;}
+.container .delivery-wrap .delivery-name h3{
+  font-size: 3.5vw;
+  width: 58%;
+  height: 4vw;
+  line-height: 0.9;
+}
+.container .delivery-wrap .delivery-name h2{
+  font-size: 6vw;
+  height: 5vw;
+  line-height: 0.9;
+  margin-left: 18%;
+}
+
+.container .delivery-wrap .delivery-service{
+  position: absolute;
+  top: 37%;
+  right: 41%;
+}
+.container .delivery-wrap .delivery-deco{
+  position: absolute;
+  bottom: 3%;
+  right: 13%;
+  margin:0;
+  width: 22%;
+}
+.container .delivery-wrap .delivery-deco .delivery-deco1{ 
+  width: 32%;
+  height: 5vw;
+  margin-right: 50px;
+}
+.container .delivery-wrap .delivery-deco .delivery-deco2{
+  width: 47%;
+  height: 7vw;
+}
+/* site 영역 */
+.container .site_wrap{ margin-top: 150px;}
+.container .site_wrap h3{ font-size: 4vw;}
+.container .site_wrap .site{width: 8%;}
+
+/* footer */
+footer {margin-top: 20%;}
+
+footer .contact h3{ font-size: 2.5vw;}
+footer .contact > p{ font-size: 1.5vw;}
+footer .follow {width: 10%;}
+footer .follow h3{ font-size: 2.5vw;}
+footer .follow .sns{ width: 95%; justify-content: space-around;}
+footer .follow .sns1 a{ width: 85%;}
+footer .follow .sns2 a{ width: 85%;}
+footer .copy{margin-top: 20%;}
+footer .copy p { font-size: 1.2vw; }
+}

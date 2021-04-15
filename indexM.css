@@ -1,0 +1,580 @@
+@charset "utf-8";
+
+body{
+  font-family: 'Gaegu' ,'Poor Story',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+  font-size: 1.4rem;
+  background-color: #EEEDE3;
+  text-transform: uppercase;
+  color: #262626;
+}
+h1, h2, h3, p{ margin: 0;}
+ul{list-style: none; margin: 0; padding: 0; }
+a { text-decoration: none; color: inherit; display: block;}
+img{ vertical-align: top;}
+
+/* header */
+header {  }
+header .logo{ padding-top:20px;}
+header .logo a {  
+  background:url(images/logo.png) no-repeat 50% /contain;
+  text-indent: -9999px;
+  width: 80px; height: 50px;
+  margin: 0 auto;
+}
+header nav  { position: relative;}
+header nav .toggle { 
+  background: url(images/toggle.png) no-repeat 50% / contain;
+  margin: 30px 0 0 15px;
+  text-indent: -9999px;
+  width: 40px;
+  height: 30px;
+}
+header nav .toggle-menu { 
+  background-color: #E9E6D8;
+  margin-left: 15px;
+  font-size: 1.9rem;
+  font-weight: bold;
+  padding: 20px 20px 40px 20px;
+  box-sizing: border-box;
+  width: 294px;
+  height: 400px;
+  position: absolute;
+  top: -25px;
+  left: -4%;
+  z-index: 9999;
+  display: none;
+}
+header nav .toggle-menu .toggle-close{ 
+  background: url(images/close.png) no-repeat 50%/ contain;
+  width: 25px; height: 25px;
+  text-indent: -9999px;
+  margin-bottom: 50px;
+}
+header nav .toggle-menu li a{ 
+  border-bottom: 2px solid #000;
+  width: 240px;
+  padding-bottom: 5px;
+  margin: 25px 0;
+}
+
+.container{ margin: 0 auto; overflow: hidden; }
+/* top-wrap */
+/* bg 영역 */
+.container .top-wrap{ position: relative; height: 50vh;  margin-bottom: 130px;}
+.container .top-wrap .bg1{ 
+  background: url(images/yogert2.png) no-repeat 50% / contain;
+  width: 100%;
+  height: 270px;
+  position: absolute;
+  top: -253px;
+  right: -26%;
+  text-indent: -9999px;
+
+}
+.container .top-wrap .bg2{
+  background: url(images/yogert1.png) no-repeat 50% / contain;
+  width: 100%;
+  height: 323px;
+  position: absolute;
+  bottom: -36px;
+  left: -26%;
+  text-indent: -9999px;
+
+}
+/* title 영역 */
+.container .top-wrap .title{
+  width: 100%;
+  margin: 185px auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -webkit-text-stroke: 1px #262626;
+ }
+ .container .top-wrap  .title p{ 
+   margin-right: 5px;
+   font-size: 1.9rem;
+   font-weight: bold;
+   height: 25px;
+   line-height: 25px;
+   width: 98px;
+ }
+
+ .container .top-wrap  .title h1{ 
+   font-size: 4rem;
+   height: 45px;
+   line-height: 45px;
+   font-weight: bold;
+   width: 100%;
+   text-align: center;
+ }
+
+ .container .top-wrap  .title h2{ 
+  font-size: 3.1rem;
+  height: 38px;
+  font-weight: bold;
+  line-height: 37px;
+  margin-right: 5px;
+  background: url(images/deco2.png) no-repeat -4% 9% / contain;
+  width: 155px;
+  text-align: right;
+  padding-left: 9px;
+  }
+  .container .top-wrap .title h2:last-child{
+  background: url(images/deco1.png) no-repeat 101% 9% / contain;
+  margin-top: 5px;
+  margin-left: -3px;
+  width: 194px;
+  padding-right: 15px;
+  padding-left: 0;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.container .top-wrap .deco{ 
+  display: flex;
+  text-indent: -9999px;
+  align-items: flex-end;
+  margin-left: 50px;
+  margin-top: 105%;
+}
+.container .top-wrap .deco .deco1{
+  background: url(images/cow3.png) no-repeat 50% /contain;
+  width: 25%; height: 70px;
+}
+.container .top-wrap .deco .deco2{
+  background: url(images/cow.png) no-repeat 50% /contain;
+  width: 34%; height: 90px;
+}
+.container .top-wrap .deco .deco3{
+  background: url(images/cow2.png) no-repeat 50% /contain;
+  width: 13%; height: 50px;
+}
+
+/* brand */
+.brand-wrap{}
+.container .brand-wrap > p{
+  transform: rotate(-90deg);
+  transform-origin:79% 450%;
+  width: 100px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.container .brand-wrap h2{ 
+  margin-top: 150px;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.container .brand-wrap .brand_story .txtbox{ 
+  font-family: 'Poor Story',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+  width: 100%; margin: 0 auto;
+  font-size: 18px;
+}
+.container .brand-wrap .brand_story .txtbox p{width: 85%; line-height: 1.5;}
+.container .brand-wrap .brand_story .txtbox p:nth-child(1){
+ margin: 0 auto; margin-top: 60px;
+}
+.container .brand-wrap .brand_story .txtbox p:nth-child(2){
+  margin:50px 0 50px 20px;  
+}
+.container .brand-wrap .brand_story .txtbox p:nth-child(3){
+  margin: 50px auto; width: 88%;
+}
+.container .brand-wrap .brand_story .txtbox p:nth-child(4){
+  width: 89%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.container .brand-wrap .vertical{
+  text-indent: -9999px;
+  background: url(images/horizontal.svg) no-repeat 50% / contain;
+  width: 96%;
+  margin: 0 auto;
+}
+.container .brand-wrap .yogert .yogert_img{ 
+  background: url(images/yogert_logo.png) no-repeat 50% /contain;
+  text-indent: -9999px;
+  width: 30%; height: 150px;
+  margin: 50px auto;
+
+ }
+ .container .brand-wrap .yogert p{
+   font-family: 'Poor Story',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+   width: 86%;
+   margin: 80px auto;
+   margin-bottom: 200px;
+   line-height: 1.5;  
+   font-size: 18px;
+}
+/* product */
+
+/* 제품 설명 구분선 */
+.horizon{
+  background: url(images/horizontal.svg) no-repeat 50% /contain;
+  text-indent: -9999px;
+  width: 96%; margin: 0 auto;
+}
+/* 영양정보 더보러 가기 영역 */
+.container .more{ margin-top: 100px;}
+.container .more a{
+  font-family: 'Poor Story',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+  width: 70px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+.container .more .more-img{
+  background: url(images/arrow.png) no-repeat 50% / contain;
+  text-indent: -9999px;
+  width: 45px; height: 20px;
+  margin: 0 auto;
+  animation-name: arrow;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transform-origin: 50% 50%;
+}
+@keyframes arrow{
+    from{
+      transform: translate(15px , 0);
+    }
+    to{
+      transform: translate(8px);
+    }
+  }
+/* <!-- strawberry --> */
+.container .product1-wrap{
+  background-color: #E9E6D8;
+  padding-bottom: 70px;
+}
+.container .product1-wrap > p{
+  transform: rotate(-90deg);
+  transform-origin: 84% 244%;
+  line-height: 0.7;
+  font-size: 15px;
+  width: 66px;
+  margin-left: 10px;
+}
+.container .product1-wrap .berry1 { display: none;}
+.container .product1-wrap .pro-name1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 150px;
+}
+.container .product1-wrap .pro-name1 h3:first-child{
+  width: 73px;
+}
+.container .product1-wrap .pro-name1 h3{
+  width: 83px;
+  -webkit-text-stroke: 1px #262626;
+}
+.container .product1-wrap .pro-name1 h2{
+  font-size: 2.8rem;
+  width: 100%;
+  text-align: center;
+  height: 36px;
+  line-height: 36px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px #262626;
+}
+.container .product1-wrap .strawberry {
+  position: relative;
+}
+.container .product1-wrap .strawberry .product_img1 a{
+  background:url(images/strawberry.png) no-repeat 50% / contain;
+  text-indent: -9999px;
+  width: 83%;
+  height: 252px;
+  margin: 70px auto;
+}
+.container .product1-wrap .strawberry .event_img1{
+  background: url(images/straw1.png) no-repeat 50% / contain;
+  width: 0; height: 154px;
+  text-indent: -9999px;
+  position: absolute;
+  bottom: 77px;
+  /* display: none; */
+}
+.container .product1-wrap .txtbox1{ 
+  font-family: 'Poor Story',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+  font-size: 18px;
+}
+.container .product1-wrap .txtbox1 p{
+  width: 90%; 
+  margin: 0 auto;
+  line-height: 1.5;
+}
+.container .product1-wrap .txtbox1 p:nth-child(2){
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+.container .product1-wrap .txtbox1 p:last-child{
+  margin-top: 50px;
+  margin-bottom: 80px;
+  font-size: 14.5px;
+}
+
+  /* <!-- blueberry --> */
+  .container .product2-wrap {
+    background-color: #D3C4CB;
+    padding-bottom: 70px;
+  } 
+  .container .product2-wrap .pro-name2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 150px;
+  }
+  .container .product2-wrap .pro-name2 h2{
+    font-size: 2.8rem;
+    width: 100%;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #262626;
+  }
+  .container .product2-wrap .pro-name2 h3{width: 83px; -webkit-text-stroke: 1px #262626;}
+  .container .product2-wrap .pro-name2 h3:first-child{width: 73px;}
+  .container .product2-wrap .berry2{ display: none;}
+  .container .product2-wrap .blueberry{ position: relative;}
+  .container .product2-wrap .blueberry .product_img2 a{
+    background: url(images/blueberryCompote.png) no-repeat 50% /contain;
+    width: 100%; height: 300px;
+    text-indent: -9999px;
+    width: 83%;
+    height: 252px;
+    margin: 70px auto;
+  }
+  .container .product2-wrap .blueberry .event_img2{
+    background: url(images/blueberry.png) no-repeat 50% / contain;
+    text-indent: -9999px;
+    width: 0; height: 0;
+    text-indent: -9999px;
+    position: absolute;
+    bottom: 66px;
+    left: -5%;
+  }
+  .container .product2-wrap .txtbox2{
+    font-family: 'Poor Story',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+    font-size: 18px;
+  }
+  .container .product2-wrap .txtbox2 p{
+    width: 89%; 
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+  .container .product2-wrap .txtbox2 p:nth-child(2){margin-top: 70px; margin-bottom: 50px;}
+  .container .product2-wrap .txtbox2 p:last-child{margin-top: 50px; margin-bottom: 80px; font-size: 14.5px;}
+ 
+  /* recipe */
+  .container .recipe-wrap {
+    background-color: #E9E6D8
+  }
+  .container .recipe-wrap p {
+    transform: rotate(-90deg);
+    font-size: 15px;
+    width: 60px;
+    transform-origin: 109% 392%;
+    margin-left: 10px;
+  }
+  .container .recipe-wrap .recipe-name{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding-top: 80px;
+  }
+  .container .recipe-wrap .recipe-name .arrow-img{
+    background: url(images/arrow.png) no-repeat 50% / contain;
+    text-indent: -9999px;
+    width: 70px;
+  }
+  .container .recipe-wrap .recipe-name h2{
+    font-size: 2.8rem;
+    font-size: 2.8rem;
+    -webkit-text-stroke: 1px #262626;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .container .recipe-wrap .recipe-name h3{
+    font-size: 2.1rem;
+    width: 158px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 100px;
+   
+  }
+  .container .recipe-wrap .swiper-container {padding-top: 40px;}
+  .container .recipe-wrap .swiper-container .swiper-wrapper{
+    display: flex;
+    width: 500%;
+    margin-bottom: 90px;
+  }
+  .container .recipe-wrap .swiper-container .swiper-wrapper .swiper-slide{
+    width: 220px;
+    font-size: 15px;
+    font-family: 'Poor Story',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+  }
+  .container .recipe-wrap .swiper-container .swiper-wrapper .swiper-slide img{
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .container .recipe-wrap .swiper-container .swiper-wrapper .img1{ transform: rotate(3deg);}
+  .container .recipe-wrap .swiper-container .swiper-wrapper .img2{ transform: rotate(-3deg);}
+  .container .recipe-wrap .swiper-container .swiper-wrapper .img3{ transform: rotate(3deg);}
+  .container .recipe-wrap .swiper-container .swiper-wrapper .img4{ transform: rotate(-3deg)}
+  .container .recipe-wrap .swiper-container .swiper-wrapper .img5{ transform: rotate(3deg);}
+  
+  /* delivery */
+  .container .delivery-wrap{ 
+    padding-top: 80px;
+    margin-bottom: 100px;
+  }
+  .container .delivery-wrap p{
+    transform:rotate(-90deg);
+    transform-origin: 0 0;
+    font-size: 15px;
+    width: 66px;
+    margin-left: 10px;
+  }
+  .container .delivery-wrap .delivery-name{
+    margin-bottom: 70px;
+  } 
+  .container .delivery-wrap .delivery-name h3{
+    font-family: 'Poor Story',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+    width: 195px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 50px;
+  } 
+  .container .delivery-wrap .delivery-name h2{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    -webkit-text-stroke: 1px #262626;
+    height: 36px;
+    line-height: 36px;
+  }
+  .container .delivery-wrap .delivery-service {
+    display: flex; 
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .container .delivery-wrap .delivery-service {
+    font-family: 'Poor Story',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif; 
+    font-size: 18px;
+    line-height: 0.9;
+    width: 227px;
+   margin: 0 auto;
+  }
+  .container .delivery-wrap .delivery-service .delivery-arrow{
+    background: url(images/arrow.png) no-repeat 50% / contain;
+    text-indent: -9999px;
+    width: 58px;
+    margin-right: 20px;
+  }
+  .container .delivery-wrap .delivery-deco{
+    display: flex;
+    text-indent: -9999px;
+    width: 200px;
+    margin: 30px 20px 50px 127px;
+    align-items: flex-end;
+  }
+  .container .delivery-wrap .delivery-deco .delivery-deco1{
+    background: url(images/deco4.png) no-repeat 50% /contain;
+    width: 80px; height: 53px;
+    transform:rotate(-10deg);
+    margin-right: 15px;
+    
+  }
+  .container .delivery-wrap .delivery-deco .delivery-deco2{
+    background: url(images/cow.png) no-repeat 50% / contain;
+    width: 100px; height: 80px;
+    transform:rotate(15deg);
+  }
+  /* site */
+  .container .site_wrap{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+  }
+  .container .site_wrap h3{
+    font-size: 2.1rem;
+    font-weight: bold;
+  }
+  .container .site_wrap .site{
+    background-position:  50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    width: 70px; height: 50px;
+    
+  }
+  .container .site_wrap .site-img1{ background-image: url(images/site_logo1.png); }
+  .container .site_wrap .site-img2{background-image: url(images/site_logo2.png);}
+  .container .site_wrap .site-img3{ background-image: url(images/site_logo3.png);}
+
+  footer{
+    display: flex;
+    margin: 80px 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  footer .contact{ }
+  footer .contact h3{
+    margin-bottom: 15px;
+  }
+  footer .contact > p{
+    font-size: 16px;
+    text-transform: none;
+  }
+  footer .follow {  width: 85px; }
+  footer .follow h3{ margin: 0 auto; margin-bottom: 13px;}
+  footer .follow .sns{
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .follow .sns img{ width: 100%;}
+  footer .follow .sns1 a{
+    width: 30px; height: 30px;
+  }
+  footer .follow .sns2 a{
+    width: 30px; height: 30px;
+  }
+  footer .copy{
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+  }
+  footer .copy p{ font-size: 15px; color: #918F8F;}
+  
+  .shop { 
+    position: fixed; 
+    right: 41px;
+    bottom: 105px;
+    z-index: 9999;
+  }
+  .shop a { 
+    display: flex; flex-direction: column;
+    width: 60px;
+    height: 83px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .shop a span{ 
+    font-family: 'Poor Story',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+    width: 129%;
+
+  }
+  .shop img{
+    width: 100%;
+  }
+  .shop a img:hover{
+    transform: rotate(20deg);
+  }
