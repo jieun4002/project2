@@ -48,7 +48,7 @@ $('.toggle').on('click',function(){
 });
 $('.toggle-close').on('click',function(){
   $('.toggle-menu').animate({
-    left:-414
+    left:'-50%'
   },500);
 });
 

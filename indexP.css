@@ -3,7 +3,13 @@
 @media (min-width:1440px){
   header .logo a {width: 180px; height: 65px;}
   header nav .toggle{ margin-left: 45px; }
-  
+  header nav .toggle-menu{
+    left: -50%;
+    width: 45%;
+    height: 36vw;
+  }
+  header nav .toggle-menu li{margin-left: 29px;}
+  header nav .toggle-menu li a{ font-size: 4vw; width: 78%;}
   .container .top-wrap { margin-bottom: 80px; height: 83vh;}
   .container .top-wrap .bg1{ height: 542px; right: -38%;}
   .container .top-wrap .bg2{ height: 564px; left: -44%;}
