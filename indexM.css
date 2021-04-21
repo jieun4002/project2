@@ -36,13 +36,13 @@ header nav .toggle-menu {
   font-weight: bold;
   padding: 20px 20px 40px 20px;
   box-sizing: border-box;
-  width: 294px;
+  width: 375px;
   height: 400px;
   position: absolute;
-  top: -25px;
-  left: -4%;
+  top: -20px;
+  left: -414px;
   z-index: 9999;
-  display: none;
+  /* display: none; */
 }
 header nav .toggle-menu .toggle-close{ 
   background: url(images/close.png) no-repeat 50%/ contain;

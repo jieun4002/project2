@@ -18,27 +18,40 @@ AOS.init();
 
 //bg 마우스휠
 $(window).mousewheel(function(e,delta){
-  if(delta > 0){//마우스 휠을 올렸을 때
+  if(delta > 0){
     $('.bg1').stop().animate({
       top:-279
     },500)
-  } else if(delta < 0){//마우스 휠을 내렸을 때
+  } else if(delta < 0){
     $('.bg1').stop().animate({
       top:'-=15'
     },500)
   }
 });
 $(window).mousewheel(function(e,delta){
-  if(delta > 0){//마우스 휠을 올렸을 때
+  if(delta > 0){
     $('.bg2').stop().animate({
       bottom: -36
     },1000)
-  } else if(delta < 0){//마우스 휠을 내렸을 때
+  } else if(delta < 0){
     $('.bg2').stop().animate({
       bottom:'+=25'
     },500)
   }
 });
+
+//menu
+$('.toggle').on('click',function(){
+  $('.toggle-menu').animate({
+    left:'-15px'
+  },500)
+});
+$('.toggle-close').on('click',function(){
+  $('.toggle-menu').animate({
+    left:-414
+  },500);
+});
+
 // product hover
 $('.container .product1-wrap .strawberry .product_img1 a').on('mouseenter',function(){
   $(this).animate({
